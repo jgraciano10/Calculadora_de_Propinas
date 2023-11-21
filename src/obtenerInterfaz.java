@@ -22,7 +22,7 @@ public class obtenerInterfaz extends JFrame {
         double porcentajePropina = Double.parseDouble(PropinaPorcentaje.getText());
         double propinaTotal = new calcularPropina(precioTotal, porcentajePropina).getPropina();
         textMessage
-                .setText("El valor de la propina a dar dado un valor de la cuenta de "+ProductoValor.getText() +" y un porcenjae de propina de "+PropinaPorcentaje.getText()+ " es de: " + propinaTotal );
+                .setText("El valor de la propina a dar dado un valor de la cuenta de "+ProductoValor.getText() +" y un porcentaje de propina de "+PropinaPorcentaje.getText()+ "% es de: " + propinaTotal );
     }
     public void Limpiar(){
         textMessage.setText("");
